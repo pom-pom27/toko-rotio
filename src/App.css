@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  background-color: #f6f9ff;
+}
+
+.whatsapp {
+  @apply bg-green-400;
+}
+.call {
+  @apply bg-blue-400;
+}
+.email {
+  @apply bg-red-400;
+}
+.total {
+  @apply bg-slate-600;
+}
+
+.active {
+  @apply flex justify-center items-center px-2 font-medium underline;
+}
+.pending {
+  @apply flex justify-center items-center px-2 font-medium;
+}
